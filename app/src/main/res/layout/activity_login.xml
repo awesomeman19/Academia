@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/dd1"
+    tools:context="in.ac.gndec.academicportal.LoginActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="24dp"
+        android:textAlignment="center"
+        android:text="Welcome to Academic Portal" />
+
+    <TextView
+        android:id="@+id/textViewdate"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        android:textSize="16dp"
+        android:textColor="@android:color/white"
+        android:text="Date" />
+
+    <EditText
+        android:id="@+id/editTextid"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@android:color/white"
+        android:hint="Enter ID"
+        android:backgroundTint="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@android:color/white"
+        android:ems="10"
+        android:textColor="@android:color/white"
+        android:hint="Enter Password"
+        android:backgroundTint="@android:color/white"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttonStudent"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:text="Login as Student" />
+
+    <Button
+        android:id="@+id/buttonFaculty"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:text="Login as Faculty" />
+
+    <TextView
+        android:id="@+id/textView3register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Not a Member? Register now."
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+</LinearLayout>
